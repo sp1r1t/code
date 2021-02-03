@@ -1,0 +1,18 @@
+*.log
+*.vscdb
+*_0
+*.code
+**/CachedExtension*
+**/Code Cache
+**/*Cache*
+**/Session*
+**/*Crash*
+**/*Storage
+**/Backups
+storage.json
+TransportSecurity
+rapid_render.json
+machineid
+Cookies-journal
+Cookies
+Network Persistent State
