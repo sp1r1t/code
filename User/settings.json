@@ -42,5 +42,6 @@
 	"git.confirmSync": false,
 	"[json]": {
 		"editor.defaultFormatter": "HookyQR.beautify"
-	}
+	},
+	"workbench.iconTheme": "easy-icons"
 }

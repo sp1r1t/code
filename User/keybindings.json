@@ -69,6 +69,11 @@
         "when": "editorTextFocus && editorLangId == 'javascript'"
     },
     {
+        "key": "tab",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && editorLangId == 'JSON'"
+    },
+    {
         "key": "ctrl+k",
         "command": "deleteAllRight",
         "when": "terminalFocus"
