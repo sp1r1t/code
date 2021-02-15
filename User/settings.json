@@ -1,7 +1,7 @@
 {
 	"[javascript]": {
 		"editor.autoIndent": true,
-		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
 	},
 	"[less]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -16,9 +16,9 @@
 			"command": "multiCommand.formatFrigginAll",
 			"sequence": [
 				"editor.action.indentationToTabs",
-				"eslint.executeAutofix",
 				"editor.action.reindentlines",
-				"editor.action.formatDocument"
+				"editor.action.formatDocument",
+				"eslint.executeAutofix"
 			]
 		}
 	],
@@ -43,5 +43,10 @@
 	"[json]": {
 		"editor.defaultFormatter": "HookyQR.beautify"
 	},
-	"workbench.iconTheme": "easy-icons"
+	"workbench.iconTheme": "easy-icons",
+	"debug.javascript.autoAttachFilter": "disabled",
+	"prettier.jsxSingleQuote": true,
+	"prettier.printWidth": 120,
+	"prettier.arrowParens": "avoid",
+	"prettier.jsxBracketSameLine": true
 }
