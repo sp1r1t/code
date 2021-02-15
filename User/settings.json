@@ -1,16 +1,13 @@
 {
 	"[javascript]": {
 		"editor.autoIndent": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[less]": {
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"window.zoomLevel": 0,
-	"editor.rulers": [
-		80,
-		100
-	],
+	"editor.rulers": [80, 100],
 	"multiCommand.commands": [
 		{
 			"command": "multiCommand.formatFrigginAll",
@@ -48,5 +45,8 @@
 	"prettier.jsxSingleQuote": true,
 	"prettier.printWidth": 120,
 	"prettier.arrowParens": "avoid",
-	"prettier.jsxBracketSameLine": true
+	"prettier.jsxBracketSameLine": true,
+	"[jsonc]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
 }

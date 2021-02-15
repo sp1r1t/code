@@ -1,81 +1,75 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
-    {
-        "key": "ctrl+alt+p",
-        "command": "-emacs-mcx.addSelectionToPreviousFindMatch",
-        "when": "editorFocus"
-    },
-    {
-        "key": "ctrl+alt+p",
-        "command": "workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+p",
-        "command": "-workbench.action.quickOpen"
-    },
-    {
-        "key": "ctrl+]",
-        "command": "-editor.action.indentLines",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+tab",
-        "command": "editor.action.reindentselectedlines",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "ctrl+k ctrl+f",
-        "command": "-editor.action.formatSelection",
-        "when": "editorHasDocumentSelectionFormattingProvider && editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+left",
-        "command": "-subwordNavigation.cursorSubwordLeft",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+b",
-        "command": "subwordNavigation.cursorSubwordLeftSelect",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+left",
-        "command": "-subwordNavigation.cursorSubwordLeftSelect",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "alt+right",
-        "command": "-subwordNavigation.cursorSubwordRight",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+f",
-        "command": "subwordNavigation.cursorSubwordRightSelect",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "shift+alt+right",
-        "command": "-subwordNavigation.cursorSubwordRightSelect",
-        "when": "editorTextFocus"
-    },
-    {
-        "key": "tab",
-        "command": "-tab",
-        "when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
-    },
-    {
-        "key": "tab",
-        "command": "multiCommand.formatFrigginAll",
-        "when": "editorTextFocus && editorLangId == 'javascript'"
-    },
-    {
-        "key": "tab",
-        "command": "editor.action.formatDocument",
-        "when": "editorTextFocus && editorLangId == 'JSON'"
-    },
-    {
-        "key": "ctrl+k",
-        "command": "deleteAllRight",
-        "when": "terminalFocus"
-    }
+	{
+		"key": "ctrl+alt+p",
+		"command": "-emacs-mcx.addSelectionToPreviousFindMatch",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+alt+p",
+		"command": "workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+p",
+		"command": "-workbench.action.quickOpen"
+	},
+	{
+		"key": "ctrl+]",
+		"command": "-editor.action.indentLines",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+tab",
+		"command": "editor.action.reindentselectedlines",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+f",
+		"command": "-editor.action.formatSelection",
+		"when": "editorHasDocumentSelectionFormattingProvider && editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+left",
+		"command": "-subwordNavigation.cursorSubwordLeft",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+b",
+		"command": "subwordNavigation.cursorSubwordLeftSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+left",
+		"command": "-subwordNavigation.cursorSubwordLeftSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "alt+right",
+		"command": "-subwordNavigation.cursorSubwordRight",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+f",
+		"command": "subwordNavigation.cursorSubwordRightSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "shift+alt+right",
+		"command": "-subwordNavigation.cursorSubwordRightSelect",
+		"when": "editorTextFocus"
+	},
+	{
+		"key": "tab",
+		"command": "-tab",
+		"when": "editorTextFocus && !editorReadonly && !editorTabMovesFocus"
+	},
+	{
+		"key": "tab",
+		"command": "multiCommand.formatFrigginAll"
+	},
+	{
+		"key": "ctrl+k",
+		"command": "deleteAllRight",
+		"when": "terminalFocus"
+	}
 ]
