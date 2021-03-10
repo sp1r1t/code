@@ -39,7 +39,7 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true
   },
-  "editor.formatOnSave": true,
+  "editor.formatOnSave": false,
   "tslint.exclude": "*.min.*",
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
